@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&family=Lato&display=swap" rel="stylesheet">
     <link href="timeline_style.css" type="text/css" rel="stylesheet">
     <title>Mexico's History</title>
@@ -24,7 +26,26 @@
           <div class="content-left-container">
             <div class="content-left">
               <p>Grito de Dolores: ¡Viva la América y muera el mal gobierno! <img class="article-image" src=images/grito_de_dolores.jpg></p>
-              <a href="#" class="btn btn-light">Read More</a>
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
+                Read More
+              </button>
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Grito de Dolores</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/grito_de_dolores.jpg" alt="">
+                      <p>De grito de dolores was een moment dat Miguel Hidalgo op een plein in Dolores opriep voor onafhankelijkheid. Zijn roep zou niet gelijk leiden tot een onafhankelijk Mexico maar zette wel de strijd in gang.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="meta-date">
@@ -184,10 +205,15 @@
       <p>This is a selection of the events in Mexico starting from the independence until the revolution. This timeline is dedicated to the best teacher "Chugo the Great", who showed me his country with so much enthusiasm.</p>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
   </body>
 </html>
