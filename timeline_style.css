@@ -2,6 +2,7 @@ body{
   font-family: 'Baloo Da 2', cursive;
   font-family: 'Lato', sans-serif;
   background: #e6e6e6;
+  margin-top: 20px;
 }
 
 #header {
@@ -10,18 +11,17 @@ body{
     left: 0;
     width: 100%;
     margin: 0;
-    padding: 0;
     top: 0;
     z-index: 9;
     text-align: center
 }
 
-#header h1{
+#header h1 {
   font-family: 'Baloo Da 2', cursive;
   font-size: 60px
 }
 
-#header h2{
+#header h2 {
   font-family: 'Baloo Da 2', cursive;
   font-size: 35px
 }
@@ -94,18 +94,20 @@ body{
 }
 .timeline-article p {
   margin: 0 0 0 120px;
-  padding: 0 10px 0 30px;
-  font-weight: 400;
+  padding: 20px 0 0 40px;
+  font-weight: 200;
   color: #242424;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   position: relative;
+  font-family: 'Baloo Da 2', cursive;
+  letter-spacing: 1px;
 }
 .timeline-article p img.article-image {
   position: absolute;
   font-weight: 300;
   font-size: 44px;
-  top: 5px;
+  top: 4px;
   left: -110px;
   color: #C11F2F;
 }
@@ -215,31 +217,24 @@ body{
 
 .btn-light {
     position: absolute;
-    right: 21px;
-    top: 90px;
+    right: 15px;
+    top: 95px;
     color: #6D7275;
-    background-color: white;
+    background-color: white !important;
     border-color: #6D7275;
     border: 1px solid;
     display: inline-block;
-    padding: 6px 12px;
+    padding: 5px 10px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid;
     border-radius: 4px;
+    box-shadow: none;
+}
+
+.btn-light:hover {
+    box-shadow: none;
 }
 
 .footer {
@@ -279,8 +274,39 @@ body{
   max-width: 200px;
   float: left;
   padding-right: 20px;
+  margin: 15px 15px 80px 15px;
 }
 
-.modal p {
-  justify-items: center;
+.modal-body h3 {
+  margin: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  line-height: 2;
+  letter-spacing: 0.1em;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin-left: 15px;
+    font-family: 'Baloo Da 2', cursive;
+  }
+
+.modal-dialog.modal-dialog-centered {
+    max-width: 600px;
+  }
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+.close {
+    color: white;
+    opacity: 1;
+  }
+
+.close:hover {
+  color: white;
+  opacity: 0.5;
 }
