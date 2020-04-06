@@ -15,12 +15,10 @@ body{
     z-index: 9;
     text-align: center
 }
-
 #header h1 {
   font-family: 'Baloo Da 2', cursive;
   font-size: 60px
 }
-
 #header h2 {
   font-family: 'Baloo Da 2', cursive;
   font-size: 35px
@@ -72,14 +70,6 @@ body{
 .timeline-article .content-right-container {
   max-width: 44%;
   width: 100%;
-}
-.timeline-article .timeline-author {
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #242424;
-  text-align: right;
 }
 .timeline-article .content-left,
 .timeline-article .content-right {
@@ -143,13 +133,10 @@ body{
   font-weight: 900;
 }
 .timeline-article .meta-date .date {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  padding-top: 20px;
 }
-.timeline-article .meta-date .month {
-  font-size: 30px;
-  line-height: 30px;
-}
+
 /*===== // Vertical Timeline =====*/
 
 /*===== Resonsive Vertical Timeline =====*/
@@ -207,7 +194,6 @@ body{
     width: 120px;
     border-radius: 60px;
 }
-
 .content-right p img {
     position: absolute;
     height: 120px;
@@ -232,7 +218,6 @@ body{
     border-radius: 4px;
     box-shadow: none;
 }
-
 .btn-light:hover {
     box-shadow: none;
 }
@@ -250,14 +235,12 @@ body{
     vertical-align: baseline;
     padding: 20px 0;
 }
-
 .footer h1 {
     font-family: 'Baloo Da 2', cursive;
     letter-spacing: 5px;
     font-size: 20px;
     margin-bottom: 20px;
   }
-
 .footer p {
     width: 50%;
     font-family: 'Lato', sans-serif;
@@ -276,7 +259,6 @@ body{
   padding-right: 20px;
   margin: 15px 15px 80px 15px;
 }
-
 .modal-body h3 {
   margin: 15px;
   font-family: 'Lato', sans-serif;
@@ -284,18 +266,16 @@ body{
   line-height: 2;
   letter-spacing: 0.1em;
 }
-
 .modal-title {
     margin-bottom: 0;
     line-height: 1.5;
     margin-left: 15px;
     font-family: 'Baloo Da 2', cursive;
+    padding-top: 10px;
   }
-
 .modal-dialog.modal-dialog-centered {
     max-width: 600px;
   }
-
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
@@ -305,7 +285,6 @@ body{
     color: white;
     opacity: 1;
   }
-
 .close:hover {
   color: white;
   opacity: 0.5;
